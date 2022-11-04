@@ -1,0 +1,37 @@
+:root{
+    --pri:#1A1E26;
+    --sec:#323640;
+    --ter:#656A73;
+    --cuar:#979DA6;
+    --quint:#B0B7BF;
+}
+*{
+    text-decoration: none;
+    margin: 0;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    background-color: var(--cuar);
+}
+
+/*Nav*/
+.navop{
+    background-color: var(--pri);
+}
+.op>a{
+    margin: 0.2rem;
+    font-size: 1.3rem;
+}
+.op>a>img{
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+
