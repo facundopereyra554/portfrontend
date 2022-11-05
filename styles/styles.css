@@ -61,8 +61,7 @@ body{
     backdrop-filter: blur(5px);
     background-color: rgba(0, 0, 0, 0.103);
     height: 100vh;
-    max-width: 35%;
-    min-width: 35%;
+    width: 60vh;
     left: 10rem;
 }
 
