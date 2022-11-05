@@ -35,6 +35,12 @@ body{
     font-family: var(--fuenteP);
     font-size: 2rem;
 }
+@media (max-width:760px) {
+    .navop>p{
+        left: 0rem;
+        font-size: 1.5rem;
+    }
+}
 
 .op>a{
     margin: 0.2rem;
@@ -61,7 +67,26 @@ body{
     backdrop-filter: blur(5px);
     background-color: rgba(0, 0, 0, 0.103);
     height: 100vh;
-    width: 60vh;
+    width: 35%;
     left: 10rem;
+    transition: .3s;
 }
 
+@media (max-width:760px) {
+    .perfil{
+        left: 0;
+        width: 100%;
+    }
+}
+
+.info>img{
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 2.5rem;
+
+}
+.info{
+    font-family: var(--fuenteP);
+    color: var(--quint);
+    font-size: 2rem;
+}
