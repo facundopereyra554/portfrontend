@@ -4,6 +4,7 @@
     --ter:#656A73;
     --cuar:#979DA6;
     --quint:#B0B7BF;
+    --fuenteP: 'Nunito', sans-serif;
 }
 *{
     text-decoration: none;
@@ -24,14 +25,44 @@ body{
 /*Nav*/
 .navop{
     background-color: var(--pri);
+    position: fixed;
+    z-index: 1;
 }
+
+.navop>p{
+    color: lightskyblue;
+    left: 15rem;
+    font-family: var(--fuenteP);
+    font-size: 2rem;
+}
+
 .op>a{
     margin: 0.2rem;
     font-size: 1.3rem;
 }
 .op>a>img{
+    padding-top: 2px;
+    margin-right: 0.5rem;
     width: 2.7rem;
-    height: 2.7rem;
+    height: 2.9rem;
+}
+/*Imagen banner y foto perfil*/
+
+.imgb{
+    background-image: url(../img/bannerimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin-bottom: 2rem;
 }
 
+.perfil{
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.103);
+    height: 100vh;
+    max-width: 35%;
+    min-width: 35%;
+    left: 10rem;
+}
 
