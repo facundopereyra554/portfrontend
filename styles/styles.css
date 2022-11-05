@@ -37,7 +37,7 @@ body{
 }
 @media (max-width:760px) {
     .navop>p{
-        left: 0rem;
+        left: 7rem;
         font-size: 1.5rem;
     }
 }
